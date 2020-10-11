@@ -1,4 +1,4 @@
-# file backend/server/apps/ml/income_classifier/random_forest.py
+# file backend/server/apps/ml/ddos_classifier/random_forest.py
 import joblib
 import pandas as pd
 
@@ -21,9 +21,9 @@ class RandomForestClassifier:
         return self.model.predict_proba(input_data)
 
     def postprocessing(self, input_data):
-        label = "BENING"
+        label = "DDOS"
         if input_data[1] > 0.5:
-            label = "DDOS"
+            label = "BENING"
         return {"probability": input_data[1], "label": label, "status": "OK"}
 
     def compute_prediction(self, input_data):

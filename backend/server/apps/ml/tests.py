@@ -88,8 +88,8 @@ class MLTests(TestCase):
         response = my_alg.compute_prediction(input_data)
         self.assertEqual('OK', response['status'])
         self.assertTrue('label' in response)
-        self.assertEqual('DDOS', response['label'])
-        def test_registry(self):
+        self.assertEqual('BENING', response['label'])
+    def test_registry(self):
             registry = MLRegistry()
             self.assertEqual(len(registry.endpoints), 0)
             endpoint_name = "ddos_classifier"
