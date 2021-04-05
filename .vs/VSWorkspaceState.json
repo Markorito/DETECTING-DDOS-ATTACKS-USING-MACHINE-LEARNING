@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\server",
+    "\\backend\\server\\apps",
+    "\\backend\\server\\apps\\endpoints",
+    "\\backend\\server\\apps\\endpoints\\migrations",
+    "\\backend\\server\\server"
+  ],
+  "SelectedNode": "\\backend\\server\\server\\settings.py",
+  "PreviewInSolutionExplorer": false
+}
