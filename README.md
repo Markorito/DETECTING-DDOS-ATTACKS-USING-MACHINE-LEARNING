@@ -19,4 +19,4 @@ There's the ab test jupyter notebook used to run ab tests.
 
 
 ## FURTHER IMPROVEMENTS
-This could be implemented in a production server with some further improvements and building out some of the code might be outdated due to the versions of the packages used.
+This could be implemented in a production server with some further improvements and building out. Some of the code might be outdated due to the versions of the packages used.
